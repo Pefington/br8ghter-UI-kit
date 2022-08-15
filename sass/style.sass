@@ -3,49 +3,56 @@
 html, body
   font-family: 'Nunito', sans-serif
   color: $color-primary
-  /* background-color: $color-light) */
   display: flex
   flex-direction: column
-
-main
-  padding: 1rem
 
 header
   display: flex
   align-items: center
   height: 4rem
-  color: $color-light
+  color: white
   background-color: $color-primary
-  border-bottom: 3px solid $color-secondary
 
-h1, h2, h3, h4
+main
+  padding: 1rem
+
+header > h1
+  margin-left: 3rem
+
+h1, h2, h3, h4, h5, h6
   font-family: 'Fjalla One', sans-serif
   font-weight: 400
-  margin: 3rem
 
-h2
+section > h2
   border-left: 5px solid $color-secondary
+  margin: 0 2rem 2rem
 
-article
-  display: flex
-  align-items: center
-  justify-content: start
-  width: 100%
+section
   padding: 2rem 0
-  border-top: 1px solid $color-secondary
+  display: flex
+  flex-direction: column
+  justify-content: center
+
+hr
+  color: $color-secondary
+  width: 75%
+  margin: 2rem auto
+
+article.colours
+  display: grid
+  grid-template-columns: repeat(6, 1fr)
+  justify-content: center
+  align-items: center
+  padding: 0 2rem
 
 figure
   display: flex
   flex-direction: column
   align-items: center
-  width: 10rem
-  margin: 1rem
+  margin: 0
 
   p
     font-weight: 700
-
-  figcaption
-    margin: 0.5rem
 
   .swatch
     display: flex
@@ -55,3 +62,27 @@ figure
     width: 5rem
     height: 5rem
     border-radius: 10%
+    margin: 0.5rem
+
+article.typography
+  display: grid
+  grid-template-columns: repeat(3, 1fr)
+  justify-content: center
+  align-items: center
+  text-align: center
+  padding: 0 3rem
+
+  .typo-header
+    grid-column: span 3
+
+  p
+    text-align: left
+
+  h3.typo-header
+    font-family: 'Nunito', sans-serif
+    font-size: xx-large
+
+.articles-hr
+  width: 50%
+  margin: 3rem auto
+  color: $color-dark
