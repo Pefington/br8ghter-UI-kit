@@ -1,11 +1,16 @@
-/* :root {
+:root {
+  font-family: 'Nunito', sans-serif;
   --color-primary: #f00;
   --color-secondary: #0f0;
   --color-tertiary: #00f;
+  border: 1px solid var(--color-primary);
+}
+
+h1, h2, h3, h4 {
+  font-family: 'Fjalla One', sans-serif;
+  font-weight: 400;
 }
 
 header {
-  background-color: var(--color-primary);
-  color: var(--color-secondary);
   height: 4rem;
-} */
+}
