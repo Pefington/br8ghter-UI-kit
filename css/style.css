@@ -1,0 +1,93 @@
+.primary {
+  background-color: #1D3557;
+  color: #F1FAEE; }
+
+.secondary {
+  background-color: #E63946;
+  color: #F1FAEE; }
+
+.dark {
+  background-color: #457B9D;
+  color: #F1FAEE; }
+
+.medium-light {
+  background-color: #A8DADC;
+  color: #1D3557; }
+
+.light {
+  background-color: #F1FAEE;
+  color: #1D3557; }
+
+.warning {
+  background-color: #ff8000;
+  color: #1D3557; }
+
+.danger {
+  background-color: #ff1500;
+  color: #F1FAEE; }
+
+.success {
+  background-color: #67b700;
+  color: #F1FAEE; }
+
+.info {
+  background-color: #2c35b2;
+  color: #F1FAEE; }
+
+html, body {
+  font-family: "Nunito", sans-serif;
+  color: #1D3557;
+  /* background-color: $color-light) */
+  display: flex;
+  flex-direction: column; }
+
+main {
+  padding: 1rem; }
+
+header {
+  display: flex;
+  align-items: center;
+  height: 4rem;
+  color: #F1FAEE;
+  background-color: #1D3557;
+  border-bottom: 3px solid #E63946; }
+
+h1, h2, h3, h4 {
+  font-family: "Fjalla One", sans-serif;
+  font-weight: 400;
+  margin: 3rem; }
+
+h2 {
+  border-left: 5px solid #E63946; }
+
+article {
+  display: flex;
+  align-items: center;
+  justify-content: start;
+  width: 100%;
+  padding: 2rem 0;
+  border-top: 1px solid #E63946; }
+
+figure {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 10rem;
+  margin: 1rem; }
+
+figure p {
+  font-weight: 700; }
+
+figcaption {
+  margin: 0.5rem; }
+
+.swatch {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: small;
+  width: 5rem;
+  height: 5rem;
+  border-radius: 10%; }
+
+/*# sourceMappingURL=style.css.map */

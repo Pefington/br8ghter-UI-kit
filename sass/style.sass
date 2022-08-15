@@ -1,0 +1,57 @@
+@import 'classes'
+
+html, body
+  font-family: 'Nunito', sans-serif
+  color: $color-primary
+  /* background-color: $color-light) */
+  display: flex
+  flex-direction: column
+
+main
+  padding: 1rem
+
+header
+  display: flex
+  align-items: center
+  height: 4rem
+  color: $color-light
+  background-color: $color-primary
+  border-bottom: 3px solid $color-secondary
+
+h1, h2, h3, h4
+  font-family: 'Fjalla One', sans-serif
+  font-weight: 400
+  margin: 3rem
+
+h2
+  border-left: 5px solid $color-secondary
+
+article
+  display: flex
+  align-items: center
+  justify-content: start
+  width: 100%
+  padding: 2rem 0
+  border-top: 1px solid $color-secondary
+
+figure
+  display: flex
+  flex-direction: column
+  align-items: center
+  width: 10rem
+  margin: 1rem
+
+figure p
+  font-weight: 700
+
+figcaption
+  margin: 0.5rem
+
+.swatch
+  display: flex
+  align-items: center
+  justify-content: center
+  font-size: small
+  width: 5rem
+  height: 5rem
+  border-radius: 10%
