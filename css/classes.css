@@ -2,36 +2,63 @@
   background-color: #1D3557;
   color: #F1FAEE; }
 
+.text-primary {
+  color: #1D3557; }
+
 .secondary {
   background-color: #E63946;
   color: #F1FAEE; }
+
+.text-secondary {
+  color: #E63946; }
 
 .dark {
   background-color: #457B9D;
   color: #F1FAEE; }
 
+.text-dark {
+  color: #457B9D; }
+
 .medium-light {
   background-color: #A8DADC;
   color: #1D3557; }
+
+.text-medium-light {
+  color: #A8DADC; }
 
 .light {
   background-color: #F1FAEE;
   color: #1D3557; }
 
+.text-light {
+  color: #F1FAEE; }
+
 .warning {
   background-color: #ff8000;
   color: #1D3557; }
+
+.text-warning {
+  color: #ff8000; }
 
 .danger {
   background-color: #ff1500;
   color: #F1FAEE; }
 
+.text-danger {
+  color: #ff1500; }
+
 .success {
   background-color: #67b700;
   color: #F1FAEE; }
 
+.text-success {
+  color: #67b700; }
+
 .info {
   background-color: #2c35b2;
   color: #F1FAEE; }
+
+.text-info {
+  color: #2c35b2; }
 
 /*# sourceMappingURL=classes.css.map */
